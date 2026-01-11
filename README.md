@@ -212,8 +212,7 @@ ORDER BY avg DESC
 
 
 
-```md
-📋 Results Table
+md
 
 | Skill        | Average Salary ($) |
 |--------------|-------------------:|
@@ -228,7 +227,7 @@ ORDER BY avg DESC
 | Pandas       | 151,821            |
 | Elasticsearch| 145,000            |
 
-```
+
 
 ## 📝 **Insights:**
 Niche and advanced technical skills are associated with significantly higher average salaries.
