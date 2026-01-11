@@ -122,7 +122,7 @@ INNER JOIN skills_dim
     ON skills_job_dim.skill_id = skills_dim.skill_id
 ORDER BY salary_year_avg DESC
 ```
-![Top Paying Data Analyst Jobs](assets/2_top_paying_roles_skills)
+![Top Paying Data Analyst Jobs](assets/2_top_paying_roles_skills.png)
 
 
 
