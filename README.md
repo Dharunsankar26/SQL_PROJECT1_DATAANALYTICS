@@ -135,9 +135,13 @@ ORDER BY salary_year_avg DESC
 ```
 
 ## 📝 **Insights:**
+🔹 2️⃣ Skills Required for Top Paying Jobs — Insights
 
-*
-*
+SQL appears in almost all top-paying roles, confirming it as a non-negotiable core skill.
+
+Python and visualization tools (Tableau / Power BI) frequently accompany higher salaries, highlighting the importance of end-to-end analysis.
+
+Top-paying jobs typically demand a broader skill stack, combining querying, programming, and visualization
 
 ---
 
@@ -171,8 +175,12 @@ LIMIT 5
 ```
 
 ## 📝 **Insights:**
+SQL and Excel dominate demand, reinforcing their role as foundational tools across all analyst levels.
 
-*
+Programming languages and BI tools follow closely, indicating employers expect analysts to both analyze and communicate insights.
+
+Demand trends suggest companies prioritize versatile, general-purpose skills over niche tools for most analyst roles
+
 
 ---
 
@@ -203,9 +211,11 @@ ORDER BY avg DESC
 ```
 
 ## 📝 **Insights:**
+Niche and advanced technical skills are associated with significantly higher average salaries.
 
-*
+Skills related to cloud platforms, big data, and machine learning workflows consistently rank at the top.
 
+This indicates that analysts who move closer to data engineering or ML-adjacent roles unlock higher earning potential.
 ---
 
 ### 5️⃣ Most Optimal Skills to Learn
@@ -249,9 +259,12 @@ LIMIT 25;
 ```
 
 ## 📝 **Insights:**
+Skills that combine high demand and high salary offer the strongest return on learning investment.
 
-*
-*
+Cloud tools and modern data technologies stand out as long-term career accelerators.
+
+While foundational skills remain essential, pairing them with specialized or scalable tools maximizes market value.
+
 
 ---
 
