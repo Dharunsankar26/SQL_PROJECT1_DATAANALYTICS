@@ -82,7 +82,7 @@ LIMIT 10
 * Save image in: `assets/1_top_paying_roles.png`
 
 ```md
-![Top Paying Data Analyst Jobs](assets/1_top_paying_roles.png)
+![Top Paying Data Analyst Jobs]("C:\Users\dharu\OneDrive\Documents\Desktop\data analytics\SQL_PROJECT\1_top_paying_roles.png")
 ```
 
 ## 📝 **Insights:**
@@ -133,7 +133,7 @@ ORDER BY salary_year_avg DESC
 * Save image in: `assets/2_top_paying_roles_skills.png`
 
 ```md
-![Skills for Top Paying Jobs](assets/2_top_paying_roles_skills.png)
+![Skills for Top Paying Jobs]("C:\Users\dharu\OneDrive\Documents\Desktop\data analytics\SQL_PROJECT\2_top_paying_roles_skills.png")
 ```
 
 ## 📝 **Insights:**
