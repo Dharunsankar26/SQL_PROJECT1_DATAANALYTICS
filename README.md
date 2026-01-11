@@ -10,7 +10,6 @@ This project explores the **data analyst job market** using SQL, focusing on:
 
 The goal is to help aspiring data analysts understand **what to learn** and **where opportunities lie**.
 
-> 📁 All SQL queries used in this project should be stored in the **`project_sql/`** folder.
 
 ---
 
@@ -82,7 +81,8 @@ LIMIT 10
 * Save image in: `assets/1_top_paying_roles.png`
 
 ```md
-![Top Paying Data Analyst Jobs]("C:\Users\dharu\OneDrive\Documents\Desktop\data analytics\SQL_PROJECT\1_top_paying_roles.png")
+![Top Paying Data Analyst Jobs](assets/1_top_paying_roles.png)
+
 ```
 
 ## 📝 **Insights:**
