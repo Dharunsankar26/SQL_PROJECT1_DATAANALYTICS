@@ -171,7 +171,7 @@ LIMIT 5
 
 
 ```md
-📋 **Results Table**
+📋 Results Table
 
 | Skill    | Demand Count |
 |----------|--------------|
@@ -213,7 +213,7 @@ ORDER BY avg DESC
 
 
 ```md
-📋 **Results Table**
+📋 Results Table
 
 | Skill        | Average Salary ($) |
 |--------------|-------------------:|
@@ -273,7 +273,7 @@ LIMIT 25;
 
 
 ```md
-📋 **Results Table**
+📋 Results Table
 
 | Skill       | Demand Count | Avg Salary ($) |
 |-------------|--------------|----------------|
