@@ -63,7 +63,7 @@ Below, each section explains **what was analyzed**. You can add your **SQL code*
 📌 **Add SQL Query Here**
 
 ```sql
--- SELECT
+SELECT
     job_title,
     company_dim.name AS company_name,
     salary_year_avg,
