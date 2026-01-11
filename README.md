@@ -324,8 +324,4 @@ This project strengthened my SQL skills and improved my understanding of the dat
 
 ---
 
-📌 **Next Improvements (Optional):**
 
-* Add Python visualizations
-* Automate analysis pipeline
-* Compare trends year-over-year
