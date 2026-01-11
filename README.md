@@ -96,10 +96,31 @@ LIMIT 10
 
 **Objective:** Find which skills appear most often in the highest-paying jobs.
 
-📌 **Add SQL Query Here**
-
 ```sql
--- Paste SQL query that joins jobs with skills for top-paying roles
+WITH top_paying_jobs AS (
+    SELECT
+        job_id,
+        job_title,
+        salary_year_avg,
+        name AS company_name
+    FROM job_postings_fact
+    LEFT JOIN company_dim 
+        ON job_postings_fact.company_id = company_dim.company_id
+    WHERE job_title_short = 'Data Analyst'
+      AND job_location = 'Anywhere'
+      AND salary_year_avg IS NOT NULL
+    ORDER BY salary_year_avg DESC
+)
+
+SELECT
+    top_paying_jobs.*,
+    skills
+FROM top_paying_jobs
+INNER JOIN skills_job_dim 
+    ON top_paying_jobs.job_id = skills_job_dim.job_id
+INNER JOIN skills_dim 
+    ON skills_job_dim.skill_id = skills_dim.skill_id
+ORDER BY salary_year_avg DESC
 ```
 
 📊 **Add Visualization Here**
@@ -125,7 +146,18 @@ LIMIT 10
 📌 **Add SQL Query Here**
 
 ```sql
--- Paste SQL query for most in-demand skills
+SELECT 
+    skills,count(skills_job_dim.job_id) as demand
+FROM job_postings_fact
+INNER JOIN skills_job_dim 
+    ON job_postings_fact.job_id = skills_job_dim.job_id
+INNER JOIN skills_dim 
+    ON skills_job_dim.skill_id = skills_dim.skill_id
+WHERE job_title_short ='Data Analyst'
+GROUP BY skills
+ORDER BY demand DESC
+LIMIT 5
+
 ```
 
 📋 **Add Results Table Here**
@@ -146,10 +178,18 @@ LIMIT 10
 
 **Objective:** Analyze which skills are associated with higher average salaries.
 
-📌 **Add SQL Query Here**
 
 ```sql
--- Paste SQL query for average salary per skill
+select skills,round(avg(salary_year_avg),0) as avg
+FROM job_postings_fact
+INNER JOIN skills_job_dim 
+    ON job_postings_fact.job_id = skills_job_dim.job_id
+INNER JOIN skills_dim 
+    ON skills_job_dim.skill_id = skills_dim.skill_id
+where salary_year_avg is NOT NULL AND job_title_short='Data Analyst'
+      AND job_work_from_home=TRUE
+GROUP BY skills
+ORDER BY avg DESC
 ```
 
 📋 **Add Results Table Here**
@@ -170,10 +210,32 @@ LIMIT 10
 
 **Objective:** Combine **demand** and **salary** to find the best skills to learn.
 
-📌 **Add SQL Query Here**
+
 
 ```sql
--- Paste SQL query combining demand and salary
+SELECT
+    skills_dim.skill_id,
+    skills_dim.skills,
+    COUNT(skills_job_dim.job_id) AS demand_count,
+    ROUND(AVG(job_postings_fact.salary_year_avg), 0) AS avg_salary
+FROM job_postings_fact
+INNER JOIN skills_job_dim 
+    ON job_postings_fact.job_id = skills_job_dim.job_id
+INNER JOIN skills_dim 
+    ON skills_job_dim.skill_id = skills_dim.skill_id
+WHERE
+    job_title_short = 'Data Analyst'
+    AND salary_year_avg IS NOT NULL
+    AND job_work_from_home = TRUE
+GROUP BY
+    skills_dim.skill_id,
+    skills_dim.skills
+HAVING
+    COUNT(skills_job_dim.job_id) > 10
+ORDER BY
+    avg_salary DESC,
+    demand_count DESC
+LIMIT 25;
 ```
 
 📋 **Add Results Table Here**
