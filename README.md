@@ -168,9 +168,6 @@ LIMIT 5
 
 ```
 
-
-
-```md
 📋 Results Table
 
 | Skill    | Demand Count |
@@ -180,7 +177,7 @@ LIMIT 5
 | Python  | 4330         |
 | Tableau | 3745         |
 
-```
+
 
 ## 📝 **Insights:**
 SQL and Excel dominate demand, reinforcing their role as foundational tools across all analyst levels.
@@ -212,7 +209,7 @@ ORDER BY avg DESC
 
 
 
-md
+📋 Results Table
 
 | Skill        | Average Salary ($) |
 |--------------|-------------------:|
@@ -271,7 +268,7 @@ LIMIT 25;
 
 
 
-```md
+
 📋 Results Table
 
 | Skill       | Demand Count | Avg Salary ($) |
@@ -287,7 +284,7 @@ LIMIT 25;
 | SSIS        | 12           | 106,683        |
 | Jira        | 20           | 104,918        |
 
-```
+
 
 ## 📝 **Insights:**
 Skills that combine high demand and high salary offer the strongest return on learning investment.
