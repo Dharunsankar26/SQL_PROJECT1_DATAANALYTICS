@@ -74,7 +74,7 @@ where job_title_short='Data Analyst' AND salary_year_avg is NOT NULL AND job_loc
 ORDER BY salary_year_avg DESC
 LIMIT 10
 ```
-![Top Paying Data Analyst Jobs](C:\Users\dharu\OneDrive\Documents\Desktop\data analytics\SQL_PROJECT\assets\1_top_paying_roles.png)
+<img width="617" height="402" alt="CHART" src=""C:\Users\dharu\OneDrive\Documents\Desktop\data analytics\SQL_PROJECT\assets\1_top_paying_roles.png"" />
 
 
 
@@ -121,7 +121,8 @@ INNER JOIN skills_dim
     ON skills_job_dim.skill_id = skills_dim.skill_id
 ORDER BY salary_year_avg DESC
 ```
-![Top Paying Data Analyst Jobs](C:\Users\dharu\OneDrive\Documents\Desktop\data analytics\SQL_PROJECT\assets\2_top_paying_roles_skills.png)
+<img width="617" height="402" alt="CHART" src="C:\Users\dharu\OneDrive\Documents\Desktop\data analytics\SQL_PROJECT\assets\2_top_paying_roles_skills" />
+
 
 
 
