@@ -168,12 +168,18 @@ LIMIT 5
 
 ```
 
-📋 **Add Results Table Here**
+
 
 ```md
-| Skill | Demand Count |
-|------|--------------|
-|      |              |
+📋 **Results Table**
+
+| Skill    | Demand Count |
+|----------|--------------|
+| SQL      | 7291         |
+| Excel   | 4611         |
+| Python  | 4330         |
+| Tableau | 3745         |
+
 ```
 
 ## 📝 **Insights:**
@@ -204,12 +210,24 @@ GROUP BY skills
 ORDER BY avg DESC
 ```
 
-📋 **Add Results Table Here**
+
 
 ```md
-| Skill | Average Salary |
-|------|----------------|
-|      |                |
+📋 **Results Table**
+
+| Skill        | Average Salary ($) |
+|--------------|-------------------:|
+| PySpark      | 208,172            |
+| Bitbucket    | 189,155            |
+| Couchbase    | 160,515            |
+| Watson       | 160,515            |
+| DataRobot    | 155,486            |
+| GitLab       | 154,500            |
+| Swift        | 153,750            |
+| Jupyter      | 152,777            |
+| Pandas       | 151,821            |
+| Elasticsearch| 145,000            |
+
 ```
 
 ## 📝 **Insights:**
@@ -252,12 +270,24 @@ ORDER BY
 LIMIT 25;
 ```
 
-📋 **Add Results Table Here**
+
 
 ```md
-| Skill | Demand Count | Avg Salary |
-|------|--------------|------------|
-|      |              |            |
+📋 **Results Table**
+
+| Skill       | Demand Count | Avg Salary ($) |
+|-------------|--------------|----------------|
+| Go          | 27           | 115,320        |
+| Confluence  | 11           | 114,210        |
+| Hadoop      | 22           | 113,193        |
+| Snowflake   | 37           | 112,948        |
+| Azure       | 34           | 111,225        |
+| BigQuery    | 13           | 109,654        |
+| AWS         | 32           | 108,317        |
+| Java        | 17           | 106,906        |
+| SSIS        | 12           | 106,683        |
+| Jira        | 20           | 104,918        |
+
 ```
 
 ## 📝 **Insights:**
