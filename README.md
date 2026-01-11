@@ -60,7 +60,6 @@ Below, each section explains **what was analyzed**. You can add your **SQL code*
 
 **Objective:** Identify the highest-paying remote data analyst roles.
 
-📌 **Add SQL Query Here**
 
 ```sql
 SELECT
