@@ -75,13 +75,7 @@ ORDER BY salary_year_avg DESC
 LIMIT 10
 ```
 
-📊 **Add Visualization Here**
 
-* Suggested graph: Bar chart of top 10 salaries
-* Save image in: `assets/1_top_paying_roles.png`
-
-```md
-![Top Paying Data Analyst Jobs](assets/1_top_paying_roles.png)
 
 ```
 
@@ -127,14 +121,7 @@ INNER JOIN skills_dim
 ORDER BY salary_year_avg DESC
 ```
 
-📊 **Add Visualization Here**
 
-* Suggested graph: Skill frequency bar chart
-* Save image in: `assets/2_top_paying_roles_skills.png`
-
-```md
-![Skills for Top Paying Jobs]("C:\Users\dharu\OneDrive\Documents\Desktop\data analytics\SQL_PROJECT\2_top_paying_roles_skills.png")
-```
 
 ## 📝 **Insights:**
 Skills Required for Top Paying Jobs — Insights
