@@ -86,7 +86,7 @@ LIMIT 10
 ```
 
 ## 📝 **Insights:**
-🔹 1️⃣ Top Paying Data Analyst Jobs — Insights
+🔹Top Paying Data Analyst Jobs — Insights
 
 Remote data analyst roles can reach exceptionally high salary ranges, showing strong demand for senior and specialized analysts.
 High-paying roles are often offered by large tech firms and data-driven companies, indicating strong analytics maturity.
