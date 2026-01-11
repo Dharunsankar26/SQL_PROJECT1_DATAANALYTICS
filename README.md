@@ -77,7 +77,7 @@ LIMIT 10
 
 
 
-```
+
 
 ## 📝 **Insights:**
 🔹Top Paying Data Analyst Jobs — Insights
@@ -88,7 +88,7 @@ High-paying roles are often offered by large tech firms and data-driven companie
 
 Job titles vary widely (Analyst, Lead, Director), suggesting salary growth is closely tied to experience and responsibility, not just the title.
 
----
+
 
 ### 2️⃣ Skills Required for Top Paying Jobs
 
@@ -132,7 +132,7 @@ Python and visualization tools (Tableau / Power BI) frequently accompany higher 
 
 Top-paying jobs typically demand a broader skill stack, combining querying, programming, and visualization
 
----
+
 
 ### 3️⃣ In-Demand Skills for Data Analysts
 
